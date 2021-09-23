@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selection Playground</title>
+  </head>
+  <script defer src="selection.js"></script>
+  <body>
+    <div>
+      <p>
+        The WebXR event <strong><code>selectend</code></strong> is sent to an
+        <a href="/en-US/docs/Web/API/XRSession"><code>XRSession</code></a> when
+        one of its input sources ends its
+        <a href="/en-US/docs/Web/API/WebXR_Device_API/Inputs#primary_actions"
+          >primary action</a
+        >
+        or when an input source that's in the process of handling an ongoing
+        primary action is disconnected without successfully completing the
+        action.
+      </p>
+      <p id="p1" class="a b">
+        Primary actions include things like users pressing triggers or buttons,
+        tapping a touchpad, speaking a command, or performing a recognizable
+        gesture when using a video tracking system or handheld controller with
+        an accelerometer.
+      </p>
+      <ul>
+        <li>This is a test item1.</li>
+        <li>This is a test item2.</li>
+        <li>This is a test item3.</li>
+      </ul>
+      <table class="properties">
+        <tbody>
+          <tr>
+            <th>Bubbles</th>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th>Cancelable</th>
+            <td>No</td>
+          </tr>
+          <tr>
+            <th>Interface</th>
+            <td>
+              <a href="/en-US/docs/Web/API/XRInputSourceEvent"
+                ><code>XRInputSourceEvent</code></a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>Event handler property</th>
+            <td>
+              <a
+                href="/en-US/docs/Web/API/XRSession/onselectend"
+                title="onselectend"
+                ><code>onselectend</code></a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        For details on how the
+        <a
+          href="/en-US/docs/Web/API/XRSession/selectstart_event"
+          title="selectstart"
+          ><code>selectstart</code></a
+        >,
+        <a href="/en-US/docs/Web/API/XRSession/select_event" title="select"
+          ><code>select</code></a
+        >, and
+        <a
+          href="/en-US/docs/Web/API/XRSession/selectend_event"
+          title="selectend"
+          aria-current="page"
+          ><code>selectend</code></a
+        >
+        events work, and how you should react to them, see
+        <a href="/en-US/docs/Web/API/WebXR_Device_API/Inputs#primary_actions"
+          >Primary actions</a
+        >
+        in
+        <a href="/en-US/docs/Web/API/WebXR_Device_API/Inputs"
+          >Inputs and input sources</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
