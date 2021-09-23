@@ -1,0 +1,1 @@
+document.addEventListener("mouseup",(()=>{console.log("hello world")}));

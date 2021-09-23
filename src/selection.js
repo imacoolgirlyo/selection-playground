@@ -1,5 +1,3 @@
-'use strict'
-
 const mouseupEventHandler = () => {
   console.log('hello world')
 }
